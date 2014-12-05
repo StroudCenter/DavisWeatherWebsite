@@ -1,0 +1,16 @@
+Script characteristics on last page load:
+
+Last ran: Fri 3:25 pm
+
+nws-alerts.php - 1.15 - 19-Aug-2013 - NWS Public Alerts
+Cron job not used
+Preliminary codes checked: 2
+Preliminary data cull: 0.3867 seconds
+Average cull per code: 0.1934 seconds
+Primary alerts downloaded: 0
+Primary data cull: 0.0000 seconds
+Cache file updated: Fri 3:25 pm
+Alert box data file updated
+Icon data file updated
+RSS feed file updated
+Total script process time: 0.3887 seconds

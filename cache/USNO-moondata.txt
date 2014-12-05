@@ -1,0 +1,64 @@
+HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2014 20:25:45 GMT
+Server: Apache
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+1b8
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Sun and Moon Data for One Day</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name = viewport content='width=device-width, initial-scale=1'>
+</head>
+<body>
+<br>
+<h4>U.S. Naval Observatory<br>Astronomical Applications Department</h4>
+<br>
+<h3>Sun and Moon Data for One Day</h3>
+
+48e
+
+ <p>The following information is provided for Avondale, Pa%2c Usa             
+                                                          
+ (longitude  W75.8, latitude N39.9): </p>
+ <pre>
+        Friday   
+        5 December 2014       Universal Time - 5h            
+
+                         <strong>SUN</strong>
+        Begin civil twilight      06:39                 
+        Sunrise                   07:09                 
+        Sun transit               11:54                 
+        Sunset                    16:38                 
+        End civil twilight        17:08                 
+
+                         <strong>MOON</strong>
+        Moonrise                  15:38 on preceding day
+        Moonset                   06:00                 
+        Moonrise                  16:23                 
+        Moon transit              23:40                 
+        Moonset                   06:58 on following day
+
+ </pre> 
+
+ <p>Phase of the Moon on  5 December:    &nbsp; waxing gibbous 
+ with  99% of the Moon's visible disk illuminated. </p>
+
+ <p>Full          Moon on  6 December  2014 at 07:27     
+ (Universal Time - 5h).              </p>
+
+
+5c
+
+<br>
+<p><a href="javascript:history.go(-1)">Back to form</a></p>
+<br>
+<br>
+</body>
+</html>
+
+0
+

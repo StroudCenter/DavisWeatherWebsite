@@ -1,0 +1,222 @@
+HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2014 20:25:45 GMT
+Server: Apache
+X-Powered-By: PHP/5.1.6
+Content-Length: 5318
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<html>
+<head>
+<title>TEMIS --  Clear sky UV index and ozone at a location</title>
+  <link REL="stylesheet" HREF="../../styles/nets.css" TYPE="text/css">
+</head>
+<body class="pt">
+
+<!-- Table with page header -->
+
+<table border=3 cellspacing=1 cellpadding=10 width="100%">
+
+<tr>
+<td align=left valign=top width=10000>
+
+<!-- top left cell contains the title;
+     using "width=10000", a ridiculously large value,
+     to force the left column to be as wide as possible
+-->
+
+    <br>
+    <h1><font color="#0D5292">
+    Clear sky UV index and ozone at a location
+    </font></h1>
+
+</td>
+<td align=center valign=top nowrap rowspan=2>
+
+<!-- right cell contains TEMIS logo and link back -->
+
+   <a href="../../index.html"><img border=0 height=62 width=100
+      SRC="../../img/Temis-logo_small.gif" alt="go to TEMIS Home Page"></a>
+   <p>
+   <a href="../UVindex.html"><b>Archive<br> UV index</b></a>
+
+</td>
+</tr>
+<tr>
+
+<!-- bottom left cell contains possible sub-links -->
+
+<td align=left valign=bottom nowrap>
+
+<table border=0 cellpadding=2>
+<tr><td align=right valign=top nowrap>
+    <i><a href="../UVindex.html">Today's UV index</a>&nbsp; </i> : </td>
+    <td align=left  valign=top nowrap>
+    <a href="../europe_uvi.html">Europe</a>
+    &nbsp;|&nbsp;
+    <a href="../nl_uvi.html">The Netherlands</a>
+    &nbsp;|&nbsp;
+    <a href="../world_uvi.html">World</a>
+    &nbsp;|&nbsp;
+    UV index at your location
+    </td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+</table>
+
+<p>
+&nbsp;<br>
+
+<!-- page contents -->
+
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 width="100%">
+
+<tr><td align=center valign=top nowrap width=150>
+
+    <hr noshade>
+    &nbsp;<br>
+
+    <b>UV&nbsp;index&nbsp;and&nbsp;ozone&nbsp;at&nbsp;a&nbsp;location</b>
+
+    <p>
+
+    <center>
+
+    <form action="/uvradiation/nrt/uvindex.php" method=get>
+
+    <table border=0>
+
+    <tr><td align=center valign=top nowrap colspan=2>
+        <i>Select a place from a</i> <br>
+        <a href="placenames.html">list of place names</a> <br>
+        <i>or a</i> <a href="placemap.html">clickable map</a>
+        <p>
+        <i>Or choose a location:</i></td>
+    </tr>
+
+    <tr><td align=right nowrap valign=middle>
+           longitude =</td>
+        <td align=left  nowrap valign=middle>
+           <input type=text name="lon" value="-75.7812"
+            size="8" maxlength="8"> [-180,180]</td>
+    </tr>
+
+    <tr><td align=right nowrap valign=middle>
+           latitude =</td>
+        <td align=left  nowrap valign=middle>
+           <input type=text name="lat" value="39.8604"
+            size="8" maxlength="8"> [-90,90]</td>
+    </tr>
+
+    <tr><td align=center valign=top nowrap colspan=2>
+        <input type="submit" value="Get forecast"></td>
+    </tr>
+
+    </table>
+
+    </form>
+
+    </center>
+
+    <p>
+    <hr noshade>
+    <p>
+
+    <a href="./uvresol.html"><b>Information&nbsp;on&nbsp;the
+       resolution&nbsp;of&nbsp;the&nbsp;data</b></a>
+
+    <p>
+    <hr noshade>
+    <p>
+
+<!--    <a href="howtoget.html"><b>Automatically&nbsp;retrieving&nbsp;the
+    UV&nbsp;index&nbsp;and&nbsp;ozone&nbsp;at&nbsp;a&nbsp;location</b></a> 
+
+    <p>
+    <hr noshade>-->
+
+    </td>
+
+<!-- empty separation column -->
+    <td align=left valign=top>&nbsp;</td>
+
+<!-- main body of the page -->
+    <td align=left valign=top>
+
+    This tool returns the forecasts of the UV index and the total
+    ozone column for a user-specified location at local solar noon
+    of today and the coming 6 days for
+    clear-sky conditions and in the absence of snow. The forecasts are
+    based on assimilated ozone data of GOME-2. To find the
+    location of a certain place, you can use the
+    <a href="http://www.getty.edu/research/tools/vocabulary/tgn/index.html">
+    Getty Thesaurus of Geographic Names</a>.
+
+    <p>
+
+    
+<br>&nbsp;
+
+<dl><dd>
+<table border=2 cellspacing=5 cellpadding=5>
+<tr><td align=left ><i>&nbsp;<br>&nbsp; Date</i> </td>
+    <td align=right><i>UV <br>&nbsp; index</i> </td>
+    <td align=right><i>ozone <br>column</i> </td></tr>
+<tr><td align=right nowrap>&nbsp; 5 Dec 2014 </td>
+    <td align=right nowrap> 1.7 </td>
+    <td align=right nowrap>&nbsp;  297.4 DU </td>
+</tr>
+<tr><td align=right nowrap>&nbsp; 6 Dec 2014 </td>
+    <td align=right nowrap> 1.7 </td>
+    <td align=right nowrap>&nbsp;  293.3 DU </td>
+</tr>
+<tr><td align=right nowrap>&nbsp; 7 Dec 2014 </td>
+    <td align=right nowrap> 1.4 </td>
+    <td align=right nowrap>&nbsp;  332.5 DU </td>
+</tr>
+<tr><td align=right nowrap>&nbsp; 8 Dec 2014 </td>
+    <td align=right nowrap> 1.5 </td>
+    <td align=right nowrap>&nbsp;  310.5 DU </td>
+</tr>
+<tr><td align=right nowrap>&nbsp; 9 Dec 2014 </td>
+    <td align=right nowrap> 1.5 </td>
+    <td align=right nowrap>&nbsp;  321.2 DU </td>
+</tr>
+<tr><td align=right nowrap>&nbsp; 10 Dec 2014 </td>
+    <td align=right nowrap> 1.5 </td>
+    <td align=right nowrap>&nbsp;  319.9 DU </td>
+</tr>
+</table>
+</dl>
+
+    </td>
+
+<!-- empty separation column -->
+    <td align=left valign=top>&nbsp;</td>
+
+</tr>
+
+</table>
+
+<!-- page bottom -->
+
+<p>
+&nbsp;<br>
+<hr>
+<p>
+
+<a href="http://www.knmi.nl/"><img src="../../img/knmi_smt.gif"
+   width=56 height=43 hspace=10 align=left border=0></a>
+<i>last modified:</i> 25 July 2014<br>
+<i>data product contact:</i>
+<a href="../../contact.php">TEMIS team</a>
+<br>
+<font size="-1">Copyright &copy; KNMI / TEMIS</font>
+
+</body>
+</html>

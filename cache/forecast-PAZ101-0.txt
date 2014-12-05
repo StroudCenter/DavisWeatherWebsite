@@ -1,0 +1,55 @@
+HTTP/1.0 200 OK
+Server: Apache/2.2.15 (Red Hat)
+X-NIDS-ServerID: www8.mo
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=900
+Expires: Fri, 05 Dec 2014 20:40:45 GMT
+Date: Fri, 05 Dec 2014 20:25:45 GMT
+Content-Length: 6541
+Connection: close
+
+<script type="text/javascript">$.get("siteNews.php", {a:"phi"},function(response){ if (response !== "false") $("#topnews").html($(response).find("#topnews").html()); });</script><style>
+ul{
+	list-style-type: none;
+}
+.point-forecast-7-day{
+	margin-left:-40px;	
+}
+.warn{
+	color: #FF0000;
+	font-weight:bold;
+	text-decoration: underline;
+}
+</style>
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><title>7-Day Forecast for Latitude 39.83&deg;N and Longitude 75.79&deg;W (Text-Only)</title></head><body leftmargin="0" topmargin="0" rightmargin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF" text="#000000"><div style="margin:25px 0px 0px 0px;"><table width="800" border="0" align="center" cellpadding="0" cellspacing="0"><tr valign ="top"><td width="80%" valign="top" align="left"><font size="3"><b>NWS Forecast for: Avondale PA</b></font><br>Issued by: National Weather Service Philadelphia, PA<br><a href="http://www.weather.gov/glossary/index.php?word=Last+update"><b>Last Update: </b></a>12:34 pm EST Dec 5, 2014</td><td width="20%" valign="top" align="right"><a href=javascript:window.print()><img src="/images/wtf/12.gif" border=0 height=35 width=30 alt=Print></a></td></tr><tr><td colspan="2" valign="top" align="center"><hr><br></td></tr>
+</table><table width="800" border="0" align="center" cellpadding="0" cellspacing="0"><tr valign ="top"><td colspan="2" valign="top" align="left"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"><tr valign ="top" align="center"><td width="11%"  ><b>Late<br>Afternoon</b><br><img src="/images/wtf/small/ra80.png" width="55" height="58" alt="Rain. Chance for Measurable Precipitation 80%" title="Rain. Chance for Measurable Precipitation 80%" ><br>Rain<br><br>Hi <font color="#FF0000">42 &deg;F</font></td><td width="11%"  ><b>Tonight<br></b><br><img src="/images/wtf/small/nra90.png" width="55" height="58" alt="Rain. Chance for Measurable Precipitation 90%" title="Rain. Chance for Measurable Precipitation 90%" ><br>Rain<br><br>Lo <font color="#0033CC">39 &deg;F</font></td><td width="11%"  ><b>Saturday<br></b><br><img src="/images/wtf/small/ra90.png" width="55" height="58" alt="Heavy Rain. Chance for Measurable Precipitation 90%" title="Heavy Rain. Chance for Measurable Precipitation 90%" ><br>Heavy<br>Rain<br>Hi <font color="#FF0000">54 &deg;F</font></td><td width="11%"  ><b>Saturday<br>Night</b><br><img src="/images/wtf/small/nra90.png" width="55" height="58" alt="Rain. Chance for Measurable Precipitation 90%" title="Rain. Chance for Measurable Precipitation 90%" ><br>Rain<br><br>Lo <font color="#0033CC">36 &deg;F</font></td><td width="11%"  ><b>Sunday<br></b><br><img src="/images/wtf/small/ra30.png" width="55" height="58" alt="Chance Rain. Chance for Measurable Precipitation 30%" title="Chance Rain. Chance for Measurable Precipitation 30%" ><br>Chance<br>Rain<br>Hi <font color="#FF0000">44 &deg;F</font></td><td width="11%"  ><b>Sunday<br>Night</b><br><img src="/images/wtf/small/nsct.png" width="55" height="58" alt="Partly Cloudy" title="Partly Cloudy" ><br>Partly<br>Cloudy<br>Lo <font color="#0033CC">30 &deg;F</font></td><td width="11%"  ><b>Monday<br></b><br><img src="/images/wtf/small/bkn.png" width="55" height="58" alt="Mostly Cloudy" title="Mostly Cloudy" ><br>Mostly<br>Cloudy<br>Hi <font color="#FF0000">41 &deg;F</font></td><td width="11%"  ><b>Monday<br>Night</b><br><img src="/images/wtf/small/nrasn50.png" width="55" height="58" alt="Chance Rain/Snow. Chance for Measurable Precipitation 50%" title="Chance Rain/Snow. Chance for Measurable Precipitation 50%" ><br>Chance<br>Rain/Snow<br>Lo <font color="#0033CC">35 &deg;F</font></td><td width="11%"  ><b>Tuesday<br></b><br><img src="/images/wtf/small/rasn50.png" width="55" height="58" alt="Chance Rain/Snow. Chance for Measurable Precipitation 50%" title="Chance Rain/Snow. Chance for Measurable Precipitation 50%" ><br>Chance<br>Rain/Snow<br>Hi <font color="#FF0000">41 &deg;F</font></td></tr></table></td></tr><tr valign ="top"><td colspan="2" valign="top" align="left"><br><div align="left"><a href="showsigwx.php?warnzone=PAZ102&warncounty=PAC029&firewxzone=PAZ102&local_place1=Avondale+PA&product1=Short+Term+Forecast"><span class="warn">Short Term Forecast</span></a><br></div><br><b>Late Afternoon: </b>Rain.  High near 42. East wind around 5 mph.  Chance of precipitation is 80%. New precipitation amounts of less than a tenth of an inch possible. <br>
+<br>
+<b>Tonight: </b>Rain.  Low around 39. Light and variable wind becoming east around 5 mph in the evening.  Chance of precipitation is 90%. New precipitation amounts between a tenth and quarter of an inch possible. <br>
+<br>
+<b>Saturday: </b>Periods of rain. The rain could be heavy at times.  High near 54. South wind 3 to 7 mph.  Chance of precipitation is 90%. New precipitation amounts between a quarter and half of an inch possible. <br>
+<br>
+<b>Saturday Night: </b>Periods of rain, mainly before 3am.  Low around 36. Breezy, with a north wind 5 to 10 mph increasing to 15 to 20 mph after midnight.  Chance of precipitation is 90%. New precipitation amounts between a half and three quarters of an inch possible. <br>
+<br>
+<b>Sunday: </b>A chance of rain before 7am.  Mostly sunny, with a high near 44. North wind 15 to 17 mph.  Chance of precipitation is 30%. New precipitation amounts of less than a tenth of an inch possible. <br>
+<br>
+<b>Sunday Night: </b>Partly cloudy, with a low around 30.<br>
+<br>
+<b>Monday: </b>Mostly cloudy, with a high near 41.<br>
+<br>
+<b>Monday Night: </b>A chance of rain and snow.  Cloudy, with a low around 35. Chance of precipitation is 50%.<br>
+<br>
+<b>Tuesday: </b>A chance of rain and snow.  Mostly cloudy, with a high near 41. Chance of precipitation is 50%.<br>
+<br>
+<b>Tuesday Night: </b>A chance of rain and snow showers.  Mostly cloudy, with a low around 31. Chance of precipitation is 30%.<br>
+<br>
+<b>Wednesday: </b>Partly sunny, with a high near 41.<br>
+<br>
+<b>Wednesday Night: </b>Partly cloudy, with a low around 28.<br>
+<br>
+<b>Thursday: </b>Mostly sunny, with a high near 41.<br>
+<br>
+<b>Thursday Night: </b>Partly cloudy, with a low around 30.<br>
+<br>
+<b>Friday: </b>Mostly sunny, with a high near 44.<br>
+<br>
+<hr><br></td></tr><tr><td colspan="2" align="left"><b>Point Forecast:</b> Avondale PA<br>&nbsp;39.83&deg;N 75.79&deg;W<br></td></tr><tr><td colspan="2" align="left"><br>Visit your local NWS office at: <a href="http://www.erh.noaa.gov/phi/">http://www.erh.noaa.gov/phi/</a></td></tr></table></div><br />
